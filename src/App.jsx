@@ -11,7 +11,7 @@ export default function App() {
 
         <div className="btn-container">
           <button className="btn1">+</button>
-          <button className="btn2">-</button>
+          <button className="btn1">-</button>
         </div>
       </div>
     </div>
