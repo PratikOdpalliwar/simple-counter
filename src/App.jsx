@@ -12,11 +12,13 @@ export default function App() {
         </div>
 
         <div className="btn-container">
-          <button className="btn1" onClick={()=>setAdd(add-1)}>-</button>
+          <button className="btn1" onClick={(e)=>setAdd(add-1)}>-</button>
           <button className="btn1" onClick={(e) => setAdd(add + 1)}>+</button>
           
         </div>
       </div>
+
+      <div className="container2"></div>
     </div>
   )
 }
